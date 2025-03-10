@@ -1,0 +1,35 @@
+# Virtual environments
+venv_py310/
+venv/
+env/
+ENV/
+.env
+.venv
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Local development settings
+.env
+.env.local
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ML specific
+*.h5
+*.pkl
+model_weights/
