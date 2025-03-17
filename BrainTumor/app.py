@@ -8,7 +8,8 @@ import io
 app = Flask(__name__)
 
 # Load the saved model
-model = tf.keras.models.load_model('path/to/my_model')
+model = tf.keras.models.load_model(r'C:\Users\ander\Desktop\Dat23A Kea\Valgfag\Machine Learning\BrainTumorYOLO11\BrainTumorYOLO11\BrainTumor\brain-tumor-detector.keras')
+
 
 @app.route('/')
 def home():
